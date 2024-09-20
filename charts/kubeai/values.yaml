@@ -95,7 +95,7 @@ openwebui:
   - name: ENABLE_OLLAMA_API
     value: "false"
   - name: SHOW_ADMIN_DETAILS
-    value: "false"
+    value: "true"
   - name: SAFE_MODE
     value: "true"
   - name: ENABLE_LITELLM
