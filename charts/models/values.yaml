@@ -15,7 +15,7 @@ catalog:
     - --gpu-memory-utilization=0.9
   # Gemma #
   gemma2-2b-cpu:
-    enabled: false
+    enabled: true
     features: ["TextGeneration"]
     owner: google
     url: "ollama://gemma2:2b"
