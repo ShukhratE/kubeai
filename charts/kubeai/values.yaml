@@ -36,6 +36,9 @@ resourceProfiles:
     requests:
       cpu: 2
       memory: "4Gi"
+    limits:
+      cpu: 4
+      memory: "5Gi"
   nvidia-gpu-l4:
     imageName: "nvidia-gpu"
     limits:
