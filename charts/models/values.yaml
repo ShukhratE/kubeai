@@ -23,7 +23,7 @@ catalog:
     owner: google
     url: "ollama://gemma2:2b"
     engine: OLlama
-    resourceProfile: cpu:0.5
+    resourceProfile: cpu:1
   # Llama #
   llama-3.1-8b-instruct-cpu:
     enabled: false
