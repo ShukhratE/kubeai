@@ -4,7 +4,7 @@
 
 secrets:
   huggingface:
-    create: false
+    create: true
     token: ""
     # The name of the secret to use.
     # If not set, and create is true, the name is generated using the fullname template.
