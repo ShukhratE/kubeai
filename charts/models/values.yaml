@@ -17,6 +17,7 @@ catalog:
   gemma2-2b-cpu:
     enabled: true
     scaleDownDelaySeconds: 1800
+    targetRequests: 10
     features: ["TextGeneration"]
     owner: google
     url: "ollama://gemma2:2b"
