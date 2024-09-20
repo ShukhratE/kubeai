@@ -18,6 +18,7 @@ catalog:
     enabled: true
     scaleDownDelaySeconds: 1800
     targetRequests: 10
+    minReplicas: 1
     features: ["TextGeneration"]
     owner: google
     url: "ollama://gemma2:2b"
