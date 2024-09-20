@@ -26,12 +26,15 @@ catalog:
     resourceProfile: cpu:1
   # Llama #
   llama-3.1-8b-instruct-cpu:
-    enabled: false
+    enabled: true
     features: ["TextGeneration"]
     owner: "meta-llama"
     url: "hf://meta-llama/Meta-Llama-3.1-8B-Instruct"
     engine: VLLM
-    resourceProfile: cpu:6
+    resourceProfile: cpu:2
+    scaleDownDelaySeconds: 1800
+    targetRequests: 10
+    minReplicas: 1
     env:
       VLLM_CPU_KVCACHE_SPACE: "4"
     args:
